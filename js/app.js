@@ -36,7 +36,7 @@ const displaySearchResults = books => {
   SearchResult.style.visibility = "visible";
     resultCounter.innerText = parseInt(resultCounter.innerText) + parseInt(booksData.length);
 
-  books.docs.slice(0, 20).forEach(book => {
+  books.docs.forEach(book => {
     let publishDate;
     let title;
     let imageLink;
