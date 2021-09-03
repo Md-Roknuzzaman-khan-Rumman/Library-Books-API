@@ -17,7 +17,6 @@ const bookSearchButton = () => {
 
 //============== Search Results Show ==============//
 const displaySearchResults = books => {
-  console.log(books.docs);
   const booksData = books.docs;
   const bookContainer = document.getElementById("books_search_results");
   const SearchResult = document.getElementById("shows_result");
