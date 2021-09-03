@@ -47,7 +47,7 @@ const displaySearchResults = books => {
 
     //============== Cover Image ==============//
     if (!book.cover_i) {
-      imageLink = "/images/noImage.jpg";
+      imageLink = "../images/noImage.jpg";
     } else {
       imageLink = `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`;
     }
